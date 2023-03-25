@@ -23,7 +23,7 @@ Start the bot by running this command:
 python3 main.py
 ```
 
-After start the bot, it will create text file `authorized_users.txt`. Put user Telegram ID if you want to restrict who can use the bot and then restart bot.
+After start the bot, it will create text file `authorized_users.txt`. Put user Telegram ID to restrict who can use the bot and then restart bot. If you didn't know your Telegram user ID, you can go to @googleimgbot and type /id, the bot will reply info about your user ID.
 
 Open the Telegram app, then search your bot, click `START` button or type `/start` command to start conversation.
 
@@ -35,6 +35,6 @@ If you want to deploy it on [Streamlit](https://streamlit.io/), don't forget to 
 OPENAI_API_KEY="<your open ai api key>"
 TELEGRAM_BOT_API_KEY="<your telegram bot api key>"
 LOG_FILE_PATH="bot.log"
-INIT_AUTHORIZED_USERS="<your telegram user>"
+INIT_AUTHORIZED_USERS="<your telegram user ID>"
 ENV="dev"
 ```
